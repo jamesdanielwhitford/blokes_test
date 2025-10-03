@@ -1,0 +1,51 @@
+# Godot-specific ignores
+.import/
+.mono/
+.godot/
+export/
+*.pck
+*.zip
+*/.gdignore
+.DS_Store
+Thumbs.db
+
+# User-specific ignores
+.vscode/
+.idea/
+.vs/
+build/
+bin/
+obj/
+*.user
+*.resharper
+*.suo
+*.sln.ide/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Linux specific
+*~
+
+# C# specific
+.csproj
+.user
+.sln
+.suo
+.resharper
+.vs/
+bin/
+obj/
+
+# GDScript specific
+.gdignore
+
+# Input devices
+/input_devices/
+
+# Godot 4 specific
+# Default build folder for C# projects
+/build/
