@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Play in Editor",
+            "type": "godot",
+            "request": "launch",
+            "project": "${workspaceFolder}",
+            "port": 6007,
+            "address": "127.0.0.1",
+            "launch_game_instance": true,
+            "launch_scene": false,
+            "editor_path": "/Applications/Godot.app/Contents/MacOS/Godot"
+        },
+        {
+            "name": "Launch Scene",
+            "type": "godot",
+            "request": "launch",
+            "project": "${workspaceFolder}",
+            "port": 6007,
+            "address": "127.0.0.1",
+            "launch_game_instance": true,
+            "launch_scene": true,
+            "editor_path": "/Applications/Godot.app/Contents/MacOS/Godot"
+        }
+    ]
+}
